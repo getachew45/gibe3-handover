@@ -15,3 +15,6 @@ async () => {
 alert("Save button works");
 
 });
+<button id="saveBtn"> 
+save Report
+</button>
