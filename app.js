@@ -1,7 +1,7 @@
-const SUPABASE_URL =
-"https://aggxeaxapxvdnleenkvk.supabase.co/rest/v1/";
-const SUPABASE_KEY =
-"YOUR_ANON_PUBLIC_KEY";
+import { createClient } from '@supabase/supabase-js'
+const supabaseUrl = 'https://aggxeaxapxvdnleenkvk.supabase.co'
+const supabaseKey = process.env.SUPABASE_KEY
+const supabase = createClient(supabaseUrl, supabaseKey)
 const supabaseClient =
 supabase.createClient(
 SUPABASE_URL,

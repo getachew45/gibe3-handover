@@ -156,8 +156,7 @@
                     <label>Time:</label> <input type="time" id="addTime">
                     <label>Date:</label> <input type="date" id="addDate">
                     
-              </div>
-            </div>
+             </div>
             <button type="submit" class="btn-submit">Submit Report</button>
         </form>
         <div id="reportSummary" class="summary-box hidden">
@@ -166,6 +165,9 @@
             <button onclick="window.print()" class="btn-print">🖨 Print / Save as PDF</button>
         </div>
     </div>
+    <button id="saveBtn">
+        save Report
+    </button>
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
 <script src="app.js"></script>
 <a href="reports.html">
